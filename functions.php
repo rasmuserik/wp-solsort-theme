@@ -7,10 +7,4 @@ function theme_enqueue_styles() {
     array('parent-style')
   );
 }
-
-function script_solsortjs() {
-  echo '<script src="/solsort.js"></script>';
-}
-
-add_action( 'wp_print_footer_scripts', 'script_solsortjs' );
 ?>
